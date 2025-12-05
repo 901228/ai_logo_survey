@@ -1,0 +1,1192 @@
+{
+  "title": "LOGO x 材質 融合問卷",
+  "instructionExamples": {
+    "good": [
+      {
+        "title": "範例一",
+        "logo": "images/samples/s1_logo.jpg",
+        "material": "images/samples/s1_material.jpg",
+        "result": "images/samples/s1_result.jpg"
+      },
+      {
+        "title": "範例二",
+        "logo": "images/samples/s3_logo.jpg",
+        "material": "images/samples/s3_material.jpg",
+        "result": "images/samples/s3_result.jpg"
+      },
+      {
+        "title": "範例三",
+        "logo": "images/samples/s4_logo.jpg",
+        "material": "images/samples/s4_material.jpg",
+        "result": "images/samples/s4_result.jpg"
+      }
+    ],
+    "structureLoss": {
+      "logo": "images/samples/unitednations.jpg",
+      "material": "images/samples/yarn_04.jpg",
+      "result": "images/samples/result_42_8.jpg"
+    },
+    "textureLoss": {
+      "logo": "images/samples/unitednations.jpg",
+      "material": "images/samples/yarn_04.jpg",
+      "result": "images/samples/result_4_44.jpg"
+    },
+    "textureLoss2": {
+      "logo": "images/samples/pepsi.jpg",
+      "material": "images/samples/custom_12.jpg",
+      "result": "images/samples/pepsi_custom_12_controlnet.png"
+    }
+  },
+  "cases": [
+    {
+      "id": "q001",
+      "logo": "images/q001/logo.png",
+      "material": "images/q001/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q001/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q001/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q001/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q001/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q002",
+      "logo": "images/q002/logo.png",
+      "material": "images/q002/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q002/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q002/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q002/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q002/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q005",
+      "logo": "images/q005/logo.png",
+      "material": "images/q005/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q005/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q005/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q005/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q005/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q006",
+      "logo": "images/q006/logo.png",
+      "material": "images/q006/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q006/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q006/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q006/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q006/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q008",
+      "logo": "images/q008/logo.png",
+      "material": "images/q008/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q008/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q008/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q008/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q008/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q009",
+      "logo": "images/q009/logo.png",
+      "material": "images/q009/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q009/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q009/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q009/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q009/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q010",
+      "logo": "images/q010/logo.png",
+      "material": "images/q010/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q010/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q010/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q010/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q010/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q011",
+      "logo": "images/q011/logo.png",
+      "material": "images/q011/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q011/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q011/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q011/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q011/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q013",
+      "logo": "images/q013/logo.png",
+      "material": "images/q013/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q013/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q013/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q013/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q013/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q015",
+      "logo": "images/q015/logo.png",
+      "material": "images/q015/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q015/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q015/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q015/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q015/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "logo": "images/q017/logo.png",
+      "material": "images/q017/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q017/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q017/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q017/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q017/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "logo": "images/q018/logo.png",
+      "material": "images/q018/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q018/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q018/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q018/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q018/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "logo": "images/q020/logo.png",
+      "material": "images/q020/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q020/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q020/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q020/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q020/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "logo": "images/q021/logo.png",
+      "material": "images/q021/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q021/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q021/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q021/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q021/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q023",
+      "logo": "images/q023/logo.png",
+      "material": "images/q023/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q023/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q023/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q023/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q023/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q024",
+      "logo": "images/q024/logo.png",
+      "material": "images/q024/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q024/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q024/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q024/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q024/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q025",
+      "logo": "images/q025/logo.png",
+      "material": "images/q025/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q025/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q025/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q025/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q025/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q026",
+      "logo": "images/q026/logo.png",
+      "material": "images/q026/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q026/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q026/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q026/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q026/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q027",
+      "logo": "images/q027/logo.png",
+      "material": "images/q027/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q027/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q027/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q027/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q027/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q028",
+      "logo": "images/q028/logo.png",
+      "material": "images/q028/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q028/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q028/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q028/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q028/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q030",
+      "logo": "images/q030/logo.png",
+      "material": "images/q030/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q030/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q030/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q030/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q030/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q032",
+      "logo": "images/q032/logo.png",
+      "material": "images/q032/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q032/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q032/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q032/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q032/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q033",
+      "logo": "images/q033/logo.png",
+      "material": "images/q033/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q033/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q033/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q033/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q033/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q034",
+      "logo": "images/q034/logo.png",
+      "material": "images/q034/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q034/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q034/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q034/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q034/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q035",
+      "logo": "images/q035/logo.png",
+      "material": "images/q035/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q035/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q035/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q035/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q035/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q036",
+      "logo": "images/q036/logo.png",
+      "material": "images/q036/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q036/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q036/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q036/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q036/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q037",
+      "logo": "images/q037/logo.png",
+      "material": "images/q037/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q037/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q037/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q037/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q037/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q038",
+      "logo": "images/q038/logo.png",
+      "material": "images/q038/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q038/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q038/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q038/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q038/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q039",
+      "logo": "images/q039/logo.png",
+      "material": "images/q039/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q039/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q039/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q039/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q039/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q040",
+      "logo": "images/q040/logo.png",
+      "material": "images/q040/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q040/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q040/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q040/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q040/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q047",
+      "logo": "images/q047/logo.png",
+      "material": "images/q047/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q047/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q047/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q047/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q047/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q048",
+      "logo": "images/q048/logo.png",
+      "material": "images/q048/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q048/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q048/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q048/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q048/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q049",
+      "logo": "images/q049/logo.png",
+      "material": "images/q049/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q049/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q049/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q049/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q049/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q051",
+      "logo": "images/q051/logo.png",
+      "material": "images/q051/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q051/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q051/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q051/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q051/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q053",
+      "logo": "images/q053/logo.png",
+      "material": "images/q053/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q053/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q053/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q053/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q053/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q055",
+      "logo": "images/q055/logo.png",
+      "material": "images/q055/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q055/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q055/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q055/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q055/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q058",
+      "logo": "images/q058/logo.png",
+      "material": "images/q058/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q058/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q058/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q058/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q058/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q059",
+      "logo": "images/q059/logo.png",
+      "material": "images/q059/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q059/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q059/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q059/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q059/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q062",
+      "logo": "images/q062/logo.png",
+      "material": "images/q062/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q062/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q062/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q062/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q062/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q063",
+      "logo": "images/q063/logo.png",
+      "material": "images/q063/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q063/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q063/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q063/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q063/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q064",
+      "logo": "images/q064/logo.png",
+      "material": "images/q064/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q064/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q064/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q064/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q064/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q065",
+      "logo": "images/q065/logo.png",
+      "material": "images/q065/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q065/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q065/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q065/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q065/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q067",
+      "logo": "images/q067/logo.png",
+      "material": "images/q067/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q067/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q067/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q067/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q067/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q068",
+      "logo": "images/q068/logo.png",
+      "material": "images/q068/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q068/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q068/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q068/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q068/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q069",
+      "logo": "images/q069/logo.png",
+      "material": "images/q069/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q069/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q069/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q069/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q069/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q070",
+      "logo": "images/q070/logo.png",
+      "material": "images/q070/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q070/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q070/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q070/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q070/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q071",
+      "logo": "images/q071/logo.png",
+      "material": "images/q071/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q071/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q071/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q071/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q071/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q072",
+      "logo": "images/q072/logo.png",
+      "material": "images/q072/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q072/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q072/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q072/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q072/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q073",
+      "logo": "images/q073/logo.png",
+      "material": "images/q073/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q073/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q073/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q073/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q073/controlnet.png"
+        }
+      ]
+    },
+    {
+      "id": "q075",
+      "logo": "images/q075/logo.png",
+      "material": "images/q075/texture.png",
+      "options": [
+        {
+          "value": "ours",
+          "image": "images/q075/ours.png"
+        },
+        {
+          "value": "self_rectification",
+          "image": "images/q075/self_rectification.png"
+        },
+        {
+          "value": "material_fusion",
+          "image": "images/q075/material_fusion.png"
+        },
+        {
+          "value": "controlnet",
+          "image": "images/q075/controlnet.png"
+        }
+      ]
+    }
+  ]
+}
