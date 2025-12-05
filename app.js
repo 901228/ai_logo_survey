@@ -111,6 +111,7 @@ function buildSurvey(cfg) {
 
             <hr style="margin: 1.5em 1em"/>
 
+            <div class="sampleSubHeader">Logo 結構清晰，但未能有效呈現材質的紋理與質感，且 Logo 本身色調與原圖不符。</div>
             <div class="sampleRow">
               <div class="sampleCol"><img class="sampleImg" src="${examples.textureLoss2.logo}" alt="設計圖"><div class="sampleLabel">設計圖</div></div>
               <div class="sampleCol"><img class="sampleImg" src="${examples.textureLoss2.material}" alt="材質圖"><div class="sampleLabel">材質圖</div></div>
