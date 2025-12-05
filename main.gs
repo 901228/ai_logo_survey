@@ -12,11 +12,13 @@ function doPost(e) {
 
         let answers = data.answers;
         let newRow = [
-            data.ts,                 // 時間戳記
-            data.ua,                 // User Agent (含 IP)
+            data.ts,  // 時間戳記
+            data.ua,  // User Agent (含 IP)
             answers["user_name"],    // 姓名
             answers["user_gender"],  // 性別
-            answers["user_age"]      // 年齡
+            answers["user_age"],     // 年齡
+            answers["user_design_experience"],          // 是否有設計相關背景
+            answers["user_design_software_experience"]  // 是否有設計相關背景
         ];
 
         // for (var key in answers) {

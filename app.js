@@ -136,8 +136,7 @@ function buildSurvey(cfg) {
             </ul>
         </div>
 
-      </div>
-    `;
+      </div>`;
 
         pages.push({ name: "intro", elements: [{ type: "html", name: "intro_html", html: introHTML }] });
     }
@@ -156,14 +155,14 @@ function buildSurvey(cfg) {
             {
                 type: "text",
                 name: "user_name",
-                title: "您的姓名",
-                isRequired: true // isRequired: false 代表此題為選填
+                title: "您的姓名（非必填）",
+                isRequired: false
             },
             {
                 type: "radiogroup",
                 name: "user_gender",
                 title: "您的性別",
-                isRequired: true, // isRequired: true 代表此題為必填
+                isRequired: true,
                 choices: [
                     "男性",
                     "女性",
@@ -181,6 +180,28 @@ function buildSurvey(cfg) {
                     "36-45 歲",
                     "46-55 歲",
                     "55 歲及以上"
+                ]
+            },
+            {
+                type: "radiogroup",
+                name: "user_design_experience",
+                title: "您是否有設計相關背景？",
+                isRequired: true,
+                choices: [
+                    "是（設計師、美術、視覺相關）",
+                    "否"
+                ]
+            },
+            {
+                type: "radiogroup",
+                name: "user_design_software_experience",
+                title: "您使用設計軟體的經驗",
+                isRequired: true,
+                choices: [
+                    "沒有經驗",
+                    "偶爾使用",
+                    "經常使用",
+                    "專業使用者"
                 ]
             }
         ]
@@ -225,7 +246,6 @@ function buildSurvey(cfg) {
                 }
             ]
         });
-
     });
 
     const json = {
@@ -248,15 +268,6 @@ function buildSurvey(cfg) {
         window.scrollTo({ top: 0, behavior: "smooth" });
     })
 
-    // 續填
-    // const saved = localStorage.getItem(STORAGE_KEY);
-    // if (saved) { try { survey.data = JSON.parse(saved); } catch(_){} }
-    // survey.onValueChanged.add(() => localStorage.setItem(STORAGE_KEY, JSON.stringify(survey.data)));
-    // survey.onCurrentPageChanged.add(() => {
-    //   localStorage.setItem(STORAGE_KEY, JSON.stringify(survey.data));
-    //   // 新增：換頁時回到頁面頂端
-    //   window.scrollTo({ top: 0, behavior: "smooth" });
-    // });
     // 1. 【讀取進度】在 survey 載入初期，嘗試從 localStorage 讀取舊進度
     const savedProgressJSON = localStorage.getItem(STORAGE_KEY);
     if (savedProgressJSON) {
